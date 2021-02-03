@@ -1,2 +1,2 @@
 # TEST CICD TARGET PROJECT
-## Makefile devops contract example
+## Makefile devops contract
