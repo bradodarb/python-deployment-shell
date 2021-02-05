@@ -13,3 +13,6 @@ Contract method for building source code or to otherwise generate deployment art
 * unit-test
 `make unit-test`
 
+* deploy
+`make deploy`
+Contract method to deploy the service. Account and stage derived from ENV VARs
