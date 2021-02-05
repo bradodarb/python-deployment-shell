@@ -5,3 +5,6 @@
 * check
 `make check`
 Contract method for performing actions such as linting, static analysis, etc...
+
+* unit-test
+`make unit-test`
