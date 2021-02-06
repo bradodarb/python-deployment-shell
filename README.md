@@ -16,3 +16,6 @@ Contract method for building source code or to otherwise generate deployment art
 * deploy
 `make deploy`
 Contract method to deploy the service. Account and stage derived from ENV VARs
+
+* integration-test
+`make integration-test`
