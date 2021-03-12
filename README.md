@@ -21,4 +21,4 @@ Contract method to deploy the service. Account and stage derived from ENV VARs
 `make integration-test`
 
 * e2e-test
-`make e2e-test`
+`make end 2 end test`
