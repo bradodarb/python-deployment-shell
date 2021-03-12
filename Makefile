@@ -9,3 +9,7 @@ build:
 .PHONY: deploy
 deploy:
 	echo DEPLOYING
+
+.PHONY: e2e
+e2e:
+	echo E2E Tests
