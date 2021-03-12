@@ -1,6 +1,6 @@
-.PHONY: test
-test:
-	echo TESTING
+.PHONY: lint
+lint:
+	echo LINTING
 
 .PHONY: build
 build:
@@ -10,6 +10,18 @@ build:
 deploy:
 	echo DEPLOYING
 
+.PHONY: unit-test
+unit-test: lint
+	echo UNIT TESTING
+	
+.PHONY: integration-test
+integration-test:
+	echo INTEGRATION TESTING
+	
+.PHONY: test
+test: unit-test integration-test
+	echo TESTING
+	
 .PHONY: e2e
 e2e:
 	echo E2E Tests
