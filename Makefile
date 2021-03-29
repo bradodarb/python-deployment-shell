@@ -1,3 +1,7 @@
+.PHONY: deps
+deps:
+	echo INSTALL DEPS
+	
 .PHONY: lint
 lint:
 	echo LINTING
