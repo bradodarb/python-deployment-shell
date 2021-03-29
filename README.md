@@ -26,3 +26,7 @@ Contract method to deploy the service. Account and stage derived from ENV VARs
 
 * e2e
 `make end 2 end test`
+
+
+* remove
+`make remove`
