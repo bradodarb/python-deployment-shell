@@ -24,4 +24,8 @@ test: unit-test integration-test
 	
 .PHONY: e2e
 e2e:
-	echo E2E Tests
+	echo E2E TESTING
+
+.PHONY: remove
+remove:
+	echo REMOVING
