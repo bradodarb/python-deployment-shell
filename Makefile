@@ -1,3 +1,7 @@
+.PHONY: clean
+clean:
+	echo REMOVE BUIKD ARTIFACTS
+	
 .PHONY: deps
 deps:
 	echo INSTALL DEPS

@@ -1,6 +1,10 @@
 # TEST CICD TARGET PROJECT
 ## Makefile devops contract
 
+* clean
+`make clean`
+Cleans build artifacts
+
 * deps
 `make deps`
 Install dependencies for this project
